@@ -1,0 +1,725 @@
+/* =========================================================
+   GIRLS UNPLUGGED
+   PAGE-SPECIFIC STYLES
+   ========================================================= */
+
+
+/* =========================================================
+   HOME
+   ========================================================= */
+
+.home-welcome {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-welcome .section-intro {
+  max-width: 850px;
+}
+
+.home-welcome .section-intro h2 {
+  max-width: 780px;
+}
+
+.home-features {
+  padding-top: 0;
+}
+
+.home-why {
+  background: var(--color-surface-alt);
+}
+
+.home-stats {
+  padding-top: clamp(4.5rem, 8vw, 7rem);
+  padding-bottom: clamp(4.5rem, 8vw, 7rem);
+}
+
+.home-rhythm {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-countries {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-speakers {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-resources {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-founder {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.home-final-cta {
+  padding-top: clamp(4rem, 8vw, 7rem);
+  padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+.about-story {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.about-story-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.55fr) minmax(0, 1.45fr);
+  gap: clamp(3rem, 9vw, 9rem);
+  align-items: start;
+}
+
+.about-story-label {
+  position: sticky;
+  top: 120px;
+}
+
+.about-story-label span {
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about-story-content {
+  max-width: 800px;
+}
+
+.about-story-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.about-story-content p {
+  margin-bottom: 1.3rem;
+  color: var(--color-text-muted);
+  line-height: 1.9;
+}
+
+.about-values {
+  background: var(--color-surface-alt);
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.about-value {
+  min-height: 250px;
+  padding: 1.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.about-value h3 {
+  margin-bottom: 0.8rem;
+}
+
+.about-value p {
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   THE CIRCLE
+   ========================================================= */
+
+.circle-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.circle-statement {
+  max-width: 900px;
+  margin-bottom: 4rem;
+}
+
+.circle-statement h2 {
+  max-width: 850px;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1;
+}
+
+.circle-experience {
+  background: var(--color-surface-alt);
+}
+
+.circle-experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.circle-experience-card {
+  min-height: 300px;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.circle-experience-card span {
+  display: block;
+  margin-bottom: 4rem;
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.circle-experience-card h3 {
+  margin-bottom: 0.7rem;
+}
+
+.circle-experience-card p {
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+.circle-rhythm {
+  padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+
+/* =========================================================
+   PROGRAMS
+   ========================================================= */
+
+.programs-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.programs-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-border);
+}
+
+.program-row {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr) minmax(180px, 0.55fr);
+  gap: 2rem;
+  align-items: start;
+  padding: 2.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.program-number {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.program-row h2 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+.program-row p {
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+.program-focus {
+  color: var(--color-text-light);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.programs-note {
+  max-width: 720px;
+  margin-top: 2rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   SPEAKERS
+   ========================================================= */
+
+.speakers-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.speakers-introduction .section-intro {
+  max-width: 850px;
+}
+
+.speakers-timeline {
+  padding-top: 0;
+  background: var(--color-surface-alt);
+}
+
+.speakers-timeline .section-intro {
+  margin-bottom: 3rem;
+}
+
+.speakers-note {
+  max-width: 720px;
+  margin-top: 2rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   TEAM
+   ========================================================= */
+
+.team-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.team-introduction .section-intro {
+  max-width: 850px;
+}
+
+.team-section {
+  background: var(--color-surface-alt);
+}
+
+.team-card-founder {
+  grid-column: span 2;
+}
+
+.team-card-founder .team-card-image {
+  aspect-ratio: 16 / 9;
+}
+
+.team-unfilled {
+  position: relative;
+}
+
+.team-unfilled::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.team-unfilled .team-card-image {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.team-role-note {
+  margin-top: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   IMPACT
+   ========================================================= */
+
+.impact-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.impact-introduction .section-intro {
+  max-width: 850px;
+}
+
+.impact-statements {
+  padding-top: 0;
+}
+
+.impact-story {
+  background: var(--color-surface-alt);
+}
+
+.impact-story-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(3rem, 8vw, 8rem);
+  align-items: center;
+}
+
+.impact-story-content {
+  max-width: 650px;
+}
+
+.impact-story-content p {
+  color: var(--color-text-muted);
+  line-height: 1.85;
+}
+
+.impact-story-visual {
+  min-height: 460px;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+}
+
+.impact-story-visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  object-fit: cover;
+}
+
+.impact-note {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--color-primary);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   RESOURCES
+   ========================================================= */
+
+.resources-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.resources-introduction .section-intro {
+  max-width: 850px;
+}
+
+.resources-library {
+  background: var(--color-surface-alt);
+}
+
+.resources-library .section-intro {
+  margin-bottom: 3rem;
+}
+
+.resources-more {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.resource-source-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.resource-source {
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.resource-source h3 {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.resource-source p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+.resources-guidance {
+  max-width: 760px;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.resources-guidance strong {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+.resources-guidance p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   GET INVOLVED
+   ========================================================= */
+
+.involvement-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.involvement-introduction .section-intro {
+  max-width: 850px;
+}
+
+.involvement-section {
+  background: var(--color-surface-alt);
+}
+
+.involvement-guidance {
+  max-width: 760px;
+  margin-top: 2.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+
+.faq-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.faq-introduction .section-intro {
+  max-width: 850px;
+}
+
+.faq-section {
+  padding-top: 0;
+}
+
+.faq-extra {
+  max-width: 700px;
+  margin-top: 3rem;
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.contact-introduction {
+  padding-top: clamp(5rem, 9vw, 8rem);
+}
+
+.contact-introduction .section-intro {
+  max-width: 850px;
+}
+
+.contact-section {
+  padding-top: 0;
+  padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+
+/* =========================================================
+   PRIVACY
+   ========================================================= */
+
+.privacy-content {
+  padding-top: clamp(5rem, 9vw, 8rem);
+  padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+.privacy-layout {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 800px);
+  gap: clamp(3rem, 8vw, 8rem);
+  align-items: start;
+}
+
+.privacy-nav {
+  position: sticky;
+  top: 120px;
+}
+
+.privacy-nav span {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: var(--color-text-light);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.privacy-nav p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.privacy-body h2 {
+  margin-top: 3rem;
+  margin-bottom: 0.9rem;
+}
+
+.privacy-body h2:first-child {
+  margin-top: 0;
+}
+
+.privacy-body p,
+.privacy-body li {
+  color: var(--color-text-muted);
+  line-height: 1.85;
+}
+
+.privacy-body ul {
+  padding-left: 1.25rem;
+}
+
+
+/* =========================================================
+   ADMIN
+   ========================================================= */
+
+.admin-header {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.admin-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.admin-warning {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--color-primary);
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.admin-editor {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+
+/* =========================================================
+   UTILITY PAGE STATES
+   ========================================================= */
+
+.page-message {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.page-message h1 {
+  margin-bottom: 1rem;
+}
+
+.page-message p {
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+.empty-state {
+  padding: 3rem 1.5rem;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+
+/* =========================================================
+   MOBILE PAGE ADJUSTMENTS
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .about-story-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .about-story-label,
+  .privacy-nav {
+    position: static;
+  }
+
+  .program-row {
+    grid-template-columns: 60px minmax(0, 1fr);
+  }
+
+  .program-focus {
+    grid-column: 2;
+  }
+
+  .about-values-grid,
+  .resource-source-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .impact-story-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .privacy-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-editor {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-values-grid,
+  .resource-source-list,
+  .circle-experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-row {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .program-focus {
+    grid-column: auto;
+  }
+
+  .team-card-founder {
+    grid-column: auto;
+  }
+
+  .impact-story-visual,
+  .impact-story-visual img {
+    min-height: 360px;
+  }
+
+  .admin-header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
